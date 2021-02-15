@@ -1,0 +1,140 @@
+$main-font: "Poppins";
+$play-font: "3Dventure";
+$logo-font: "LitterLover";
+$guillemets: "IM Fell French Canon", serif;
+
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap");
+
+@font-face {
+  font-family: "3Dventure";
+  src: url("./static/fonts/3Dventure.eot");
+  src: url("./static/fonts/3Dventure.eot?#iefix") format("embedded-opentype"),
+    url("./static/fonts/3Dventure.woff2") format("woff2"),
+    url("./static/fonts/3Dventure.woff") format("woff"),
+    url("./static/fonts/3Dventure.ttf") format("truetype"),
+    url("./static/fonts/3Dventure.svg#3Dventure") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LitterLover";
+  src: url("./static/fonts/LitterLover.eot");
+  src: url("./static/fonts/LitterLover.eot?#iefix") format("embedded-opentype"),
+    url("./static/fonts/LitterLover.woff2") format("woff2"),
+    url("./static/fonts/LitterLover.woff") format("woff"),
+    url("./static/fonts/LitterLover.ttf") format("truetype"),
+    url("./static/fonts/LitterLover.svg#LitterLover") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "3Dventure";
+  src: url("./static/fonts/3Dventure_1.eot");
+  src: url("./static/fonts/3Dventure_1.eot?#iefix") format("embedded-opentype"),
+    url("./static/fonts/3Dventure_1.woff2") format("woff2"),
+    url("./static/fonts/3Dventure_1.woff") format("woff"),
+    url("./static/fonts/3Dventure_1.ttf") format("truetype"),
+    url("./static/fonts/3Dventure_1.svg#3Dventure") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LitterLover2";
+  src: url("./static/fonts/LitterLover2.eot");
+  src: url("./static/fonts/LitterLover2.eot?#iefix") format("embedded-opentype"),
+    url("./static/fonts/LitterLover2.woff2") format("woff2"),
+    url("./static/fonts/LitterLover2.woff") format("woff"),
+    url("./static/fonts/LitterLover2.ttf") format("truetype"),
+    url("./static/fonts/LitterLover2.svg#LitterLover2") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "3Dventure";
+  src: url("./static/fonts/3Dventure_2.eot");
+  src: url("./static/fonts/3Dventure_2.eot?#iefix") format("embedded-opentype"),
+    url("./static/fonts/3Dventure_2.woff2") format("woff2"),
+    url("./static/fonts/3Dventure_2.woff") format("woff"),
+    url("./static/fonts/3Dventure_2.ttf") format("truetype"),
+    url("./static/fonts/3Dventure_2.svg#3Dventure") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LitterLover";
+  src: url("./static/fonts/LitterLover-Bold.eot");
+  src: url("./static/fonts/LitterLover-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./static/fonts/LitterLover-Bold.woff2") format("woff2"),
+    url("./static/fonts/LitterLover-Bold.woff") format("woff"),
+    url("./static/fonts/LitterLover-Bold.ttf") format("truetype"),
+    url("./static/fonts/LitterLover-Bold.svg#LitterLover-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "3Dventure";
+  src: url("./static/fonts/3Dventure_3.eot");
+  src: url("./static/fonts/3Dventure_3.eot?#iefix") format("embedded-opentype"),
+    url("./static/fonts/3Dventure_3.woff2") format("woff2"),
+    url("./static/fonts/3Dventure_3.woff") format("woff"),
+    url("./static/fonts/3Dventure_3.ttf") format("truetype"),
+    url("./static/fonts/3Dventure_3.svg#3Dventure") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LitterLover2";
+  src: url("./static/fonts/LitterLover2-Bold.eot");
+  src: url("./static/fonts/LitterLover2-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./static/fonts/LitterLover2-Bold.woff2") format("woff2"),
+    url("./static/fonts/LitterLover2-Bold.woff") format("woff"),
+    url("./static/fonts/LitterLover2-Bold.ttf") format("truetype"),
+    url("./static/fonts/LitterLover2-Bold.svg#LitterLover2-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./static/fonts/Poppins-Medium.eot");
+  src: url("./static/fonts/Poppins-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./static/fonts/Poppins-Medium.woff2") format("woff2"),
+    url("./static/fonts/Poppins-Medium.woff") format("woff"),
+    url("./static/fonts/Poppins-Medium.ttf") format("truetype"),
+    url("./static/fonts/Poppins-Medium.svg#Poppins-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./static/fonts/Poppins-Light.eot");
+  src: url("./static/fonts/Poppins-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("./static/fonts/Poppins-Light.woff2") format("woff2"),
+    url("./static/fonts/Poppins-Light.woff") format("woff"),
+    url("./static/fonts/Poppins-Light.ttf") format("truetype"),
+    url("./static/fonts/Poppins-Light.svg#Poppins-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}

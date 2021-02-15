@@ -1,0 +1,1009 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap");
+@import "@fortawesome/fontawesome-free/css/all.css";
+/* FLEX PROPERTIES */
+.d-block {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+@media only screen and (min-width: 860px) {
+  .lg-justify-start {
+    justify-content: flex-start;
+  }
+
+  .lg-justify-end {
+    justify-content: flex-end;
+  }
+
+  .lg-d-flex {
+    display: flex;
+  }
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.content-end {
+  align-content: flex-end;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.self-start {
+  align-self: flex-start;
+}
+
+.self-end {
+  align-self: flex-end;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 860px) {
+  .sm-flex-column {
+    flex-direction: column;
+  }
+
+  .sm-justify-center {
+    justify-content: center;
+  }
+
+  .sm-justify-around {
+    justify-content: space-around;
+  }
+
+  .sm-align-center {
+    align-items: center;
+  }
+
+  .sm-d-flex {
+    display: flex;
+  }
+
+  .sm-self-center {
+    align-self: center;
+  }
+}
+/* TEXT ALIGN */
+.txt-center {
+  text-align: center;
+}
+
+@media only screen and (max-width: 860px) {
+  .sm-txt-center {
+    text-align: center;
+  }
+}
+.txt-end {
+  text-align: end;
+}
+
+.txt-justify {
+  text-align: justify;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+/* LINE HEIGHT */
+.line-h-75 {
+  line-height: 175%;
+}
+
+@media only screen and (max-width: 860px) {
+  .line-h-75 {
+    line-height: 200%;
+  }
+}
+/* WIDTH */
+.w-full {
+  width: 100%;
+}
+
+.w-5 {
+  width: 5%;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+@media only screen and (min-width: 860px) {
+  .lg-w-full {
+    width: 100%;
+  }
+
+  .lg-w-5 {
+    width: 5%;
+  }
+
+  .lg-w-10 {
+    width: 10%;
+  }
+
+  .lg-w-20 {
+    width: 20%;
+  }
+
+  .lg-w-25 {
+    width: 25%;
+  }
+
+  .lg-w-30 {
+    width: 30%;
+  }
+
+  .lg-w-40 {
+    width: 40%;
+  }
+
+  .lg-w-50 {
+    width: 50%;
+  }
+
+  .lg-w-60 {
+    width: 60%;
+  }
+
+  .lg-w-70 {
+    width: 70%;
+  }
+
+  .lg-w-80 {
+    width: 80%;
+  }
+
+  .lg-w-90 {
+    width: 90%;
+  }
+}
+/* HEIGHT */
+.h-full {
+  height: 100%;
+}
+
+.h-10 {
+  height: 10%;
+}
+
+.h-20 {
+  height: 20%;
+}
+
+.h-25 {
+  height: 25%;
+}
+
+.h-30 {
+  height: 30%;
+}
+
+.h-40 {
+  height: 40%;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.h-60 {
+  height: 60%;
+}
+
+.h-70 {
+  height: 70%;
+}
+
+.h-80 {
+  height: 80%;
+}
+
+.h-90 {
+  height: 90%;
+}
+
+@media only screen and (min-height: 860px) {
+  .lg-h-full {
+    height: 100%;
+  }
+
+  .lg-h-10 {
+    height: 10%;
+  }
+
+  .lg-h-20 {
+    height: 20%;
+  }
+
+  .lg-h-25 {
+    height: 25%;
+  }
+
+  .lg-h-30 {
+    height: 30%;
+  }
+
+  .lg-h-40 {
+    height: 40%;
+  }
+
+  .lg-h-50 {
+    height: 50%;
+  }
+
+  .lg-h-60 {
+    height: 60%;
+  }
+
+  .lg-h-70 {
+    height: 70%;
+  }
+
+  .lg-h-80 {
+    height: 80%;
+  }
+
+  .lg-h-90 {
+    height: 90%;
+  }
+}
+/* MARGIN - PADDING */
+margin-auto {
+  margin: auto;
+}
+
+padding-auto {
+  padding: auto;
+}
+
+.lg-margin-top {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 860px) {
+  .sm-margin-top {
+    margin-top: 20px;
+  }
+}
+/* LINKS */
+a {
+  text-decoration: none;
+}
+
+/* H1 -> H6 */
+/* LISTS */
+ul,
+ol {
+  list-style: none;
+}
+
+/* POSITION */
+.sticky {
+  position: sticky;
+  position: -webkit-sticky;
+}
+
+/* TRANSPARENT TEXT WITH CONTOUR */
+.txt-only-stroke {
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+  color: transparent;
+}
+
+@font-face {
+  font-family: "3Dventure";
+  src: url("./static/fonts/3Dventure.eot");
+  src: url("./static/fonts/3Dventure.eot?#iefix") format("embedded-opentype"), url("./static/fonts/3Dventure.woff2") format("woff2"), url("./static/fonts/3Dventure.woff") format("woff"), url("./static/fonts/3Dventure.ttf") format("truetype"), url("./static/fonts/3Dventure.svg#3Dventure") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LitterLover";
+  src: url("./static/fonts/LitterLover.eot");
+  src: url("./static/fonts/LitterLover.eot?#iefix") format("embedded-opentype"), url("./static/fonts/LitterLover.woff2") format("woff2"), url("./static/fonts/LitterLover.woff") format("woff"), url("./static/fonts/LitterLover.ttf") format("truetype"), url("./static/fonts/LitterLover.svg#LitterLover") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "3Dventure";
+  src: url("./static/fonts/3Dventure_1.eot");
+  src: url("./static/fonts/3Dventure_1.eot?#iefix") format("embedded-opentype"), url("./static/fonts/3Dventure_1.woff2") format("woff2"), url("./static/fonts/3Dventure_1.woff") format("woff"), url("./static/fonts/3Dventure_1.ttf") format("truetype"), url("./static/fonts/3Dventure_1.svg#3Dventure") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LitterLover2";
+  src: url("./static/fonts/LitterLover2.eot");
+  src: url("./static/fonts/LitterLover2.eot?#iefix") format("embedded-opentype"), url("./static/fonts/LitterLover2.woff2") format("woff2"), url("./static/fonts/LitterLover2.woff") format("woff"), url("./static/fonts/LitterLover2.ttf") format("truetype"), url("./static/fonts/LitterLover2.svg#LitterLover2") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "3Dventure";
+  src: url("./static/fonts/3Dventure_2.eot");
+  src: url("./static/fonts/3Dventure_2.eot?#iefix") format("embedded-opentype"), url("./static/fonts/3Dventure_2.woff2") format("woff2"), url("./static/fonts/3Dventure_2.woff") format("woff"), url("./static/fonts/3Dventure_2.ttf") format("truetype"), url("./static/fonts/3Dventure_2.svg#3Dventure") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LitterLover";
+  src: url("./static/fonts/LitterLover-Bold.eot");
+  src: url("./static/fonts/LitterLover-Bold.eot?#iefix") format("embedded-opentype"), url("./static/fonts/LitterLover-Bold.woff2") format("woff2"), url("./static/fonts/LitterLover-Bold.woff") format("woff"), url("./static/fonts/LitterLover-Bold.ttf") format("truetype"), url("./static/fonts/LitterLover-Bold.svg#LitterLover-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "3Dventure";
+  src: url("./static/fonts/3Dventure_3.eot");
+  src: url("./static/fonts/3Dventure_3.eot?#iefix") format("embedded-opentype"), url("./static/fonts/3Dventure_3.woff2") format("woff2"), url("./static/fonts/3Dventure_3.woff") format("woff"), url("./static/fonts/3Dventure_3.ttf") format("truetype"), url("./static/fonts/3Dventure_3.svg#3Dventure") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LitterLover2";
+  src: url("./static/fonts/LitterLover2-Bold.eot");
+  src: url("./static/fonts/LitterLover2-Bold.eot?#iefix") format("embedded-opentype"), url("./static/fonts/LitterLover2-Bold.woff2") format("woff2"), url("./static/fonts/LitterLover2-Bold.woff") format("woff"), url("./static/fonts/LitterLover2-Bold.ttf") format("truetype"), url("./static/fonts/LitterLover2-Bold.svg#LitterLover2-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./static/fonts/Poppins-Medium.eot");
+  src: url("./static/fonts/Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("./static/fonts/Poppins-Medium.woff2") format("woff2"), url("./static/fonts/Poppins-Medium.woff") format("woff"), url("./static/fonts/Poppins-Medium.ttf") format("truetype"), url("./static/fonts/Poppins-Medium.svg#Poppins-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./static/fonts/Poppins-Light.eot");
+  src: url("./static/fonts/Poppins-Light.eot?#iefix") format("embedded-opentype"), url("./static/fonts/Poppins-Light.woff2") format("woff2"), url("./static/fonts/Poppins-Light.woff") format("woff"), url("./static/fonts/Poppins-Light.ttf") format("truetype"), url("./static/fonts/Poppins-Light.svg#Poppins-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2b2d3b;
+  background-image: url(./static/background3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+/******* NAV - HEADER *******/
+nav {
+  width: 100%;
+  padding-left: 50px;
+  z-index: 5;
+}
+
+.logo {
+  font-family: "LitterLover";
+  font-size: 15px;
+  color: #f7f7f7;
+  text-align: center;
+  width: 300px;
+  margin-right: 50px;
+}
+
+.nav-menu {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 22px;
+}
+.nav-menu a {
+  color: #f7f7f7;
+  padding-right: 60px;
+}
+.nav-menu a:hover {
+  color: #c66c16;
+}
+
+.button-play-section {
+  text-align: center;
+  margin: 20px 20px 10px 0px;
+}
+
+.play-btn {
+  font-family: "3Dventure";
+  font-size: 40px;
+  z-index: 1;
+  position: relative;
+  padding: 20px 46px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #a5c8c8;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  transition: color 0.5s;
+  cursor: pointer;
+}
+.play-btn:before {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: 6px solid #a5c8c8;
+}
+.play-btn:after {
+  content: "";
+  z-index: -2;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s 0.2s;
+}
+.play-btn:hover {
+  color: #2b2d3b;
+}
+.play-btn:hover:after {
+  transition: all 0.3s;
+  left: 0;
+  top: 0;
+}
+.play-btn__inner {
+  z-index: -1;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.play-btn__blobs {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 100%;
+  filter: url("#goo");
+}
+.play-btn__blob {
+  position: absolute;
+  top: 6px;
+  width: 25%;
+  height: 100%;
+  background: #a5c8c8;
+  border-radius: 100%;
+  transform: translate3d(0, 150%, 0) scale(1.7);
+  transition: transform 0.45s;
+}
+@supports (filter: url("#goo")) {
+  .play-btn__blob {
+    transform: translate3d(0, 150%, 0) scale(1.4);
+  }
+}
+.play-btn__blob:nth-child(1) {
+  left: 0%;
+  transition-delay: 0s;
+}
+.play-btn__blob:nth-child(2) {
+  left: 30%;
+  transition-delay: 0.08s;
+}
+.play-btn__blob:nth-child(3) {
+  left: 60%;
+  transition-delay: 0.16s;
+}
+.play-btn__blob:nth-child(4) {
+  left: 90%;
+  transition-delay: 0.24s;
+}
+.play-btn:hover .play-btn__blob {
+  transform: translateZ(0) scale(1.7);
+}
+@supports (filter: url("#goo")) {
+  .play-btn:hover .play-btn__blob {
+    transform: translateZ(0) scale(1.4);
+  }
+}
+
+#svgplay {
+  display: none;
+}
+
+/* MAIN */
+/* Home */
+.game-title {
+  color: #a5c8c8;
+  font-family: "LitterLover";
+  font-size: 3vw;
+  text-align: center;
+  padding-right: 100px;
+}
+
+.mick {
+  width: 75%;
+  margin-left: 4vw;
+  margin-top: 40px;
+}
+
+span {
+  color: #c66c16;
+  font-weight: 500;
+}
+
+.paragraph-home {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 16px;
+  color: #f7f7f7;
+  margin-top: 25px;
+  padding: 15px;
+}
+.paragraph-home span {
+  color: #c66c16;
+  font-weight: 500;
+}
+
+.home {
+  margin: auto;
+  width: 80vw;
+  margin-top: 45px;
+  justify-content: space-evenly;
+}
+
+/* ABOUT */
+.brain-img,
+.if3-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+}
+
+.if3-img {
+  border: #de0059 solid 2px;
+  margin-top: 97px;
+}
+
+.brain-img {
+  border: #156870 solid 2px;
+  width: 92px;
+  height: 92px;
+  margin-top: 62px;
+}
+
+.about h2 {
+  font-family: "Poppins";
+  color: #f7f7f7;
+  font-weight: 500;
+  font-size: 22px;
+  margin: 15px 15px;
+}
+
+.if3-hack {
+  margin-top: 70px;
+}
+
+.team h2 {
+  font-size: 40px;
+}
+
+.team-img {
+  margin-left: 30px;
+}
+.team-img img {
+  border-radius: 50%;
+  border: 2px solid #c66c16;
+  height: 70px;
+  width: 70px;
+  margin: 5px;
+}
+
+.p-about {
+  font-family: "Poppins";
+  font-weight: 300;
+  color: #f7f7f7;
+  border-left: 2px solid #156870;
+}
+
+.p-team {
+  font-size: 16px;
+  margin: 15px;
+  padding: 0 10px;
+}
+
+.p-right {
+  font-size: 14px;
+  padding: 0 10px;
+  margin: 0 0 15px 15px;
+  line-height: 22px;
+}
+
+.link-if {
+  font-family: "Poppins";
+  font-weight: 300;
+  color: #a5c8c8;
+  font-size: 16px;
+  margin-left: 15px;
+}
+.link-if i {
+  margin: 0 5px;
+}
+
+.link-if:hover {
+  color: #156870;
+}
+
+/* TOOLTIP ON PROFILES PICTURES */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 0.5;
+}
+
+/* RULES */
+.game-description {
+  font-family: "Poppins";
+  font-weight: 300;
+  color: #f7f7f7;
+  text-align: center;
+  margin-top: 170px;
+  margin-bottom: auto;
+  margin-left: 220px;
+  font-size: 15px;
+  position: relative;
+}
+.game-description p {
+  position: absolute;
+}
+.game-description span {
+  font-family: "IM Fell French Canon", serif;
+}
+.game-description .first-span {
+  font-size: 100px;
+  position: absolute;
+  top: -30px;
+  left: -60px;
+}
+.game-description .second-span {
+  font-size: 100px;
+  position: absolute;
+  bottom: -220px;
+  right: -40px;
+}
+.game-description img {
+  display: block;
+  opacity: 60%;
+  position: absolute;
+  width: 120%;
+  height: 290px;
+  top: -60px;
+  left: -70px;
+}
+
+.tuto {
+  margin-left: 90px;
+}
+.tuto h2 {
+  font-family: "Poppins";
+  font-size: 22px;
+  font-weight: 500;
+  color: #f7f7f7;
+  text-align: center;
+}
+.tuto .tuto1-video {
+  height: 270px;
+  width: 400px;
+  background-color: #156870;
+  margin-bottom: 20px;
+}
+.tuto .tuto2-video {
+  height: 270px;
+  width: 400px;
+  background-color: #156870;
+}
+.tuto .tuto2-video ol {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 300;
+  color: #2b2d3b;
+  padding: 15px;
+  background-color: #a5c8c8;
+  opacity: 100%;
+}
+
+/******* IMAGES FIXED *******/
+.column-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 10vw;
+  height: 100vh;
+  z-index: -1;
+  opacity: 70%;
+}
+
+.seaweed-img {
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+  width: 16vw;
+  height: auto;
+  z-index: -1;
+  opacity: 70%;
+}
+
+/* BUBBLE ANIMATION */
+#background-wrap {
+  bottom: 0;
+  left: 80%;
+  position: fixed;
+  right: 20%;
+  top: 0;
+  z-index: -1;
+}
+
+/* KEYFRAMES */
+@-webkit-keyframes animateBubble {
+  0% {
+    margin-top: 1000px;
+  }
+  100% {
+    margin-top: -100%;
+  }
+}
+@-moz-keyframes animateBubble {
+  0% {
+    margin-top: 1000px;
+  }
+  100% {
+    margin-top: -100%;
+  }
+}
+@keyframes animateBubble {
+  0% {
+    margin-top: 1000px;
+  }
+  100% {
+    margin-top: -100%;
+  }
+}
+@-webkit-keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 50px;
+  }
+}
+@-moz-keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 50px;
+  }
+}
+@keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 50px;
+  }
+}
+/* ANIMATIONS */
+.x6 {
+  -webkit-animation: animateBubble 22s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 22s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  animation: animateBubble 22s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  left: 90%;
+  top: 10%;
+  -webkit-transform: scale(0.3);
+  -moz-transform: scale(0.3);
+  transform: scale(0.3);
+}
+
+.x7 {
+  -webkit-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  left: 80%;
+  top: 30%;
+  -webkit-transform: scale(0.2);
+  -moz-transform: scale(0.2);
+  transform: scale(0.2);
+}
+
+.x8 {
+  -webkit-animation: animateBubble 28s linear infinite, sideWays 3s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 28s linear infinite, sideWays 3s ease-in-out infinite alternate;
+  animation: animateBubble 28s linear infinite, sideWays 3s ease-in-out infinite alternate;
+  left: 70%;
+  top: 55%;
+  -webkit-transform: scale(0.2);
+  -moz-transform: scale(0.2);
+  transform: scale(0.2);
+}
+
+.x9 {
+  -webkit-animation: animateBubble 30s linear infinite, sideWays 2.5s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 30s linear infinite, sideWays 2.5s ease-in-out infinite alternate;
+  animation: animateBubble 30s linear infinite, sideWays 2.5s ease-in-out infinite alternate;
+  left: 90%;
+  top: 70%;
+  -webkit-transform: scale(0.35);
+  -moz-transform: scale(0.35);
+  transform: scale(0.35);
+}
+
+.x10 {
+  -webkit-animation: animateBubble 24s linear infinite, sideWays 5s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 24s linear infinite, sideWays 5s ease-in-out infinite alternate;
+  animation: animateBubble 24s linear infinite, sideWays 5s ease-in-out infinite alternate;
+  left: 80%;
+  top: 55%;
+  -webkit-transform: scale(0.1);
+  -moz-transform: scale(0.1);
+  transform: scale(0.1);
+}
+
+.bubble {
+  height: 180px;
+  left: 90px;
+  position: absolute;
+  width: 180px;
+}
+
+/* GAME */
+.title-game {
+  font-family: "LitterLover";
+  font-size: 22px;
+  color: white;
+}
+
+#game-container {
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/*# sourceMappingURL=style.css.map */
